@@ -1,0 +1,15 @@
+@import "tailwindcss";
+/* @import "tailwindcss/preflight";
+
+@tailwind utilities; */
+
+:root {
+  --bg--color: white;
+}
+
+body {
+  background-color: var(--bg--color);
+}
+.fix-height {
+  height: calc(100vh - 150px);
+}
